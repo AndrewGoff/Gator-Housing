@@ -1,0 +1,59 @@
+<?php 
+	
+	require 'config.php';
+	require 'index.php';
+	$files = array();
+	
+	while (true) {
+		$JS_DIR = $PROJECT_DIR . 'application/js';
+		$LESS_DIR = $PROJECT_DIR . 'application/less';
+		
+		
+
+		// $less_files = opendir( $PROJECT_DIR . 'application/less/*' );
+
+		if ($js_files = opendir( $JS_DIR )) {
+			while (false !== ($js_file = readdir($js_files))) {
+
+        $js_file_modified_time = stat($JS_DIR . '/' . $js_file)['mtime'];
+
+        $isRealFile = ($js_file != '.') && ($js_file != '..');
+
+        if (array_key_exists($js_file, $files)) {
+        	
+        	$old_modified_time = (int) $files[$js_file];
+        	$new_modified_time = (int) $js_file_modified_time;
+
+        	if ($new_modified_time > $old_modified_time) {
+        		run();
+        	}
+        } 
+        
+        $files[$js_file] = $js_file_modified_time;
+	    }
+		}
+
+		if ($less_files = opendir( $LESS_DIR )) {
+			while (false !== ($less_file = readdir($less_files))) {
+
+        $less_file_modified_time = stat($LESS_DIR . '/' . $less_file)['mtime'];
+
+        $isRealFile = ($less_file != '.') && ($less_file != '..');
+
+        if ($isRealFile && array_key_exists($less_file, $files)) {
+        	
+        	$old_modified_time = (int) $files[$less_file];
+        	$new_modified_time = (int) $less_file_modified_time;
+
+        	if ($new_modified_time > $old_modified_time) {
+        		run();
+        	}
+        } 
+        
+        $files[$less_file] = $less_file_modified_time;
+	    }
+		}
+
+	}
+
+?>

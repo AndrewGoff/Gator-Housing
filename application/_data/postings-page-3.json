@@ -1,0 +1,150 @@
+{
+	"pagination": {
+		"previousPageUrl": "postings/page/2",
+		"nextPageUrl": "postings/page/4",
+		"pages": [
+			{
+				"pageUrl": "postings/page/1",
+				"pageNum": "1",
+				"active": false
+			},
+			{
+				"pageUrl": "postings/page/2",
+				"pageNum": "2",
+				"active": false
+			},
+			{
+				"pageUrl": "postings/page/3",
+				"pageNum": "3",
+				"active": true
+			},
+			{
+				"pageUrl": "postings/page/4",
+				"pageNum": "4",
+				"active": false
+			}
+		]
+	},
+	"postings": [
+		{
+			"id": "116",
+			"landlordID": "0116",
+			"numBed": "1",
+			"numbBath": "1",
+			"title": "Cozy Apartment",
+			"price": "1600",
+			"description": "Cool apartment in the Sunset, close to campus.",
+			"date": "Oct 25",
+			"numViews": "23",
+			"numTenants": "4",
+			"neighborhood": "Sunset",
+			"zip": "94116",
+			"thumbnail": "/postings/thumbnail/111"  
+		},
+		{
+			"id": "117",
+			"landlordID": "0117",
+			"numBed": "1",
+			"numbBath": "1",
+			"title": "Gorgeous Inlaw",
+			"price": "1500",
+			"description": "Quiet inlaw in the Sunset, close to campus.",
+			"date": "Nov 2",
+			"numViews": "31",
+			"numTenants": "2",
+			"neighborhood": "Sunset",
+			"zip": "94116",
+			"thumbnail": "/postings/thumbnail/111"  
+		},
+		{
+			"id": "118",
+			"landlordID": "0118",
+			"numBed": "3",
+			"numbBath": "1",
+			"title": "Mission Apartment",
+			"price": "4000",
+			"description": "Hipster apartment in the Mission, close to coffee shops.",
+			"date": "Oct 10",
+			"numViews": "60",
+			"numTenants": "5",
+			"neighborhood": "Mission",
+			"zip": "94110",
+			"thumbnail": "/postings/thumbnail/111"  
+		},
+		{
+			"id": "111",
+			"landlordID": "0111",
+			"numBed": "1",
+			"numbBath": "1",
+			"title": "Gorgeous Inlaw",
+			"price": "1500",
+			"description": "Quiet inlaw in the Sunset, close to campus.",
+			"date": "Nov 2",
+			"numViews": "31",
+			"numTenants": "2",
+			"neighborhood": "Sunset",
+			"zip": "94116",
+			"thumbnail": "/postings/thumbnail/111" 
+		},
+		{
+			"id": "112",
+			"landlordID": "0112",
+			"numBed": "2",
+			"numbBath": "1",
+			"title": "Spacious Apartment",
+			"price": "2500",
+			"description": "Large apartment in the Sunset, close to campus.",
+			"date": "Oct 25",
+			"numViews": "23",
+			"numTenants": "4",
+			"neighborhood": "Sunset",
+			"zip": "94116",
+			"thumbnail": "/postings/thumbnail/111" 
+		},
+		{
+			"id": "113",
+			"landlordID": "0113",
+			"numBed": "1",
+			"numbBath": "1",
+			"title": "Cozy Apartment",
+			"price": "1600",
+			"description": "Cool apartment in the Sunset, close to campus.",
+			"date": "Oct 25",
+			"numViews": "23",
+			"numTenants": "4",
+			"neighborhood": "Sunset",
+			"zip": "94116",
+			"thumbnail": "/postings/thumbnail/111"  
+		},
+		{
+			"id": "114",
+			"landlordID": "0114",
+			"numBed": "3",
+			"numbBath": "1",
+			"title": "Mission Apartment",
+			"price": "4000",
+			"description": "Hipster apartment in the Mission, close to coffee shops.",
+			"date": "Oct 10",
+			"numViews": "60",
+			"numTenants": "5",
+			"neighborhood": "Mission",
+			"zip": "94110",
+			"thumbnail": "/postings/thumbnail/111"  
+		},
+		{
+			"id": "115",
+			"landlordID": "0114",
+			"numBed": "2",
+			"numbBath": "1",
+			"title": "Richmond Apartment",
+			"price": "3000",
+			"description": "Beautiful apartment in the Richmond, close to the park.",
+			"date": "Nov 3",
+			"numViews": "10",
+			"numTenants": "2",
+			"neighborhood": "Richmond",
+			"zip": "94121",
+			"thumbnail": "/postings/thumbnail/111"  
+		}
+	]
+}

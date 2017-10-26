@@ -1,0 +1,27 @@
+{
+	"posting": {
+		"id": "1",
+		"landlordID": "0111",
+		"numBed": "1",
+		"numbBath": "1",
+		"title": "Gorgeous Inlaw",
+		"price": "1500",
+		"description": "Quiet inlaw in the Sunset, close to campus.",
+		"date": "Nov 2",
+		"numViews": "31",
+		"numTenants": "2",
+		"neighborhood": "Sunset",
+		"zip": "94116",
+		"thumbnail": "/postings/thumbnail/111",
+		"pictures": [
+			"/images/111/0",
+			"/images/111/1",
+			"/images/111/2",
+			"/images/111/3"
+		],
+		"roomates": [
+			"rmartin@mail.sfsu.edu",
+			"mfowler@mail.sfsu.edu"
+		]
+	}
+}

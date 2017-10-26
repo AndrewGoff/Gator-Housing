@@ -1,0 +1,7 @@
+{
+  "user": {
+  	"id" : "David",
+  	"email" : "davidslist@bitch.com",
+  	"password" : "bitch",
+  	"salt" : ""
+  }
